@@ -27,21 +27,21 @@ activate :blog do |blog|
 
   # Enable pagination
   blog.paginate = true
+  #blog.cover = 'http://www.proactiveinvestors.com/genera//img/companies/news/goldnugget350_530f8b38d279a.jpg'
   # blog.per_page = 10
   # blog.page_link = "page/{num}"
 end
 
 # Required
 set :blog_url, 'http://www.example.com'
-set :blog_name, 'Middleman'
-set :blog_description, 'Makes developing websites simple.'
-set :author_name, 'Middleman'
-set :author_bio, 'Middleman is a static site generator using all the ' \
-                 'shortcuts and tools in modern web development.'
+set :blog_name, 'My life at the Iron yard'
+set :blog_description, 'Change is good.'
+set :author_name, 'Nandita Rajagopalan'
+set :author_bio, 'Girl who loves to code.'
 # Optional
 set :author_locaton, nil
 set :author_website, nil
-set :blog_logo, nil
+set :blog_logo, 'sunrise.jpg'
 
 page '/feed.xml', layout: false
 
@@ -131,8 +131,8 @@ helpers do
   def author
     {
       bio: author_bio,
-      location: author_locaton,
-      name: author_name,
+      location: "Houston TX",
+      name: "Nandita Rajagopalan",
       website: author_website
     }
   end
