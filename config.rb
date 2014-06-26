@@ -34,7 +34,7 @@ end
 
 # Required
 set :blog_url, 'http://www.example.com'
-set :blog_name, 'My life at the Iron yard'
+set :blog_name, 'Life at the Ironyard'
 set :blog_description, 'Change is good.'
 set :author_name, 'Nandita Rajagopalan'
 set :author_bio, 'Girl who loves to code.'
