@@ -5,10 +5,24 @@
   <id>http://www.example.com</id>
   <link href="http://www.example.com"/>
   <link href="http://www.example.com/feed.xml" rel="self"/>
-  <updated>2014-06-25T14:56:00-05:00</updated>
+  <updated>2014-06-27T12:09:00-05:00</updated>
   <author>
     <name>Nandita Rajagopalan</name>
   </author>
+  <entry>
+    <title>Week 3 - Howlin' Tornado</title>
+    <link rel="alternate" href="http://www.example.com/2014/06/27/week-3-howlin-tornado/"/>
+    <id>http://www.example.com/2014/06/27/week-3-howlin-tornado/</id>
+    <published>2014-06-27T12:09:00-05:00</published>
+    <updated>2014-06-27T12:28:53-05:00</updated>
+    <author>
+      <name>Nandita Rajagopalan</name>
+    </author>
+    <summary type="html">Howlin' tornado. One of the rides I went in last summer at the Great Wolf
+Lodge in Dallas, TX. It had me hanging on to dear life. Well - this week
+was kinda like that. All concepts were new to me. Git, Middleman, TDD AND html/css.
+If I thought last...</summary>
+  </entry>
   <entry>
     <title>Week two - Living and Breathing Ruby</title>
     <link rel="alternate" href="http://www.example.com/2014/06/25/week-two-living-and-breathing-ruby/"/>
